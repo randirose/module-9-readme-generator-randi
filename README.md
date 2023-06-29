@@ -10,8 +10,8 @@ This project not only provides a way to generate a README file from the user's c
 
 If your README is long, add a table of contents to make it easy for users to find what they need.  
 
-- [User Story](#user%20story)
-- [Acceptance Criteria](#acceptance%20criteria)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)

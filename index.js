@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// array of questions for user input to be used in README
 const questions = [
     {
         type: "input",
@@ -65,7 +65,7 @@ const questions = [
         message: "Did you have additional contributors to your project?"
     },
     {
-        when: (answers)=> answers.additionalAuthors === true,
+        when: (answers)=> answers.additionalAuthors === true, // will only ask this question if user responded Y to previous confirm question
         type: "input",
         name: "credits",
         message: "Please enter additional authors on your project"
@@ -82,17 +82,16 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// this function is used to write README file
 function writeToFile(answers) {
     let readMeText = generateMarkdown(answers);
-    // answers.licenseBadge = licenseBadge(answers.license);
     fs.writeFile("new-README.md", readMeText, (err)=>{
         err ? console.error(err) : console.log("success!");
     })
 
 }
 
-// TODO: Create a function to initialize app
+// this function initializes app and begins asking user questions; calls writeToFile function
 function init() {
     inquirer.prompt(questions)
     .then((answers)=>{

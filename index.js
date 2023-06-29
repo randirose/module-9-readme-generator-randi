@@ -22,8 +22,13 @@ const questions = [
     },
     {
         type: "input",
+        name: "url",
+        message: "Please enter the live URL for your project"
+    },
+    {
+        type: "input",
         name: "usageInfo",
-        message: "Please enter usage information for your project"
+        message: "Please enter additional usage information for your project"
     },
     {
         type: "input",
@@ -50,7 +55,18 @@ const questions = [
     {
         type: "input",
         name: "authorName",
-        message: "Please enter the name(s) of the authors of your project"
+        message: "Please enter your name"
+    },
+    {
+        type: "confirm",
+        name: "additionalAuthors",
+        message: "Did you have additional contributors to your project?"
+    },
+    {
+        when: (answers)=> answers.additionalAuthors === true,
+        type: "input",
+        name: "credits",
+        message: "Please enter additional authors on your project"
     },
     {
         type: "input",
@@ -60,13 +76,14 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "Please enter the author(s) email"
+        message: "Please enter your email"
     },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(answers) {
     let readMeText = generateMarkdown(answers);
+    // answers.licenseBadge = licenseBadge(answers.license);
     fs.writeFile("new-README.md", readMeText, (err)=>{
         err ? console.error(err) : console.log("success!");
     })

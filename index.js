@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -45,6 +46,21 @@ const questions = [
             "Boost",
             "Mozilla Public License 2.0",
             "Eclipse Public License 2.0"]
+    },
+    {
+        type: "input",
+        name: "authorName",
+        message: "Please enter the name(s) of the authors of your project"
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "Please enter your GitHub username"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Please enter the author(s) email"
     },
 ];
 

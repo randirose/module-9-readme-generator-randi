@@ -91,7 +91,7 @@ function generateMarkdown(data) {
   
   ## Contributing
 
-  How to contribute to my project:
+  How to contribute to my project:\n
   ${data.contribution}
 
   ## Credits
@@ -106,7 +106,7 @@ function generateMarkdown(data) {
   ## Questions (Author Information)
 
   Author: ${data.authorName}\n
-  GitHub: https://github.com/${data.github}\n
+  GitHub: [${data.github}](https://github.com/${data.github})\n
   Email: ${data.email}
 
 `;

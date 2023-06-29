@@ -50,7 +50,9 @@ const questions = [
             "MIT License",
             "Boost",
             "Mozilla Public License 2.0",
-            "Eclipse Public License 2.0"]
+            "Eclipse Public License 2.0",
+            "BSD 3-Clause"
+        ]
     },
     {
         type: "input",

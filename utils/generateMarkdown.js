@@ -80,7 +80,7 @@ function generateMarkdown(data) {
 
   ## Usage
 
-  View the deployed version here: ${data.url}\n
+  View the deployed version here: [${data.url}](${data.url})\n
 
   ${data.usageInfo}
 
@@ -106,7 +106,7 @@ function generateMarkdown(data) {
   ## Questions (Author Information)
 
   Author: ${data.authorName}\n
-  GitHub: http://github.com/${data.github}\n
+  GitHub: https://github.com/${data.github}\n
   Email: ${data.email}
 
 `;

@@ -38,7 +38,7 @@ function renderLicenseLink(license) {
   } else if (license === "BSD 3-Clause") {
     return "[here](https://opensource.org/licenses/BSD-3-Clause)";
   } else {
-    return "no license here";
+    return "";
   }
 }
 

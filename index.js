@@ -5,24 +5,46 @@ const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        type:
-        name:
-        message:
+        type: "input",
+        name: "title",
+        message: "What is the title of your project?"
     },
     {
-        type:
-        name:
-        message:
+        type: "input",
+        name: "description",
+        message: "Please enter a description for your project"
     },
     {
-        type:
-        name:
-        message:
+        type: "input",
+        name: "installationInstructions",
+        message: "Please enter installation instructions for your project"
     },
     {
-        type:
-        name:
-        message:
+        type: "input",
+        name: "usageInfo",
+        message: "Please enter usage information for your project"
+    },
+    {
+        type: "input",
+        name: "contribution",
+        message: "Please enter contribution guidelines for your project"
+    },
+    {
+        type: "input",
+        name: "testInstructions",
+        message: "Please enter test instructions for your project"
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Please enter usage information for your project",
+        choices: [
+            "Apache License 2.0",
+            "GNU General Public License v3.0",
+            "MIT License",
+            "Boost",
+            "Mozilla Public License 2.0",
+            "Eclipse Public License 2.0"]
     },
 ];
 

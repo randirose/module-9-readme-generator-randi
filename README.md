@@ -60,7 +60,7 @@ View the tutorial video on Google Drive (for better video quality) here: https:/
 
 View the tutorial video and screenshots below:  
 
-<video src="assets/tutorial-video.mov" alt="Video Tutorial" >
+![Video Tutorial](assets/tutorial-video.mov)
 ![Screenshot - Command Line: Inquirer Questions and Answers Object](assets/screengrab-questions.answers-object.png)
 ![Screenshot - Generated README (1)](assets/screengrab-generatedREADME1.png)
 ![Screenshot - Generated README (2)](assets/screengrab-generatedREADME2.png)

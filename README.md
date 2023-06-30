@@ -56,16 +56,13 @@ To use this application to render a professional README file, follow these steps
 - View your newly generated README file, titled new-README.md  
 - Edit or add any sections you may need, and rename the file if desired.
 
-View the tutorial video on Google Drive (for better video quality) here: https://drive.google.com/file/d/1k0F8dPEbd34M0zEXV6QJjptnlenw3oBh/view  
+View the tutorial video on Google Drive here: https://drive.google.com/file/d/1k0F8dPEbd34M0zEXV6QJjptnlenw3oBh/view  
 
 View the tutorial video and screenshots below:  
 
 
 
 https://github.com/randirose/module-9-readme-generator-randi/assets/128757891/1dbed5fb-76ba-4772-9659-b746f2e0fb41
-
-
-https://github.com/randirose/module-9-readme-generator-randi/assets/128757891/305d0d08-b475-447a-a97f-178b61fba68a
 
 ![Screenshot - Command Line: Inquirer Questions and Answers Object](assets/screengrab-questions.answers-object.png)
 ![Screenshot - Generated README (1)](assets/screengrab-generatedREADME1.png)

@@ -46,6 +46,7 @@ In order to run this application, you will need to install node.js on your compu
 
 To use this application to render a professional README file, follow these steps below:  
   
+- You can clone my repo for this project here: https://github.com/randirose/module-9-readme-generator-randi  
 - Make sure all necessary libraries are installed per the installation instructions above  
 - Run the command 'node index.js' in your terminal  
 - Answer the following questions  
@@ -57,12 +58,12 @@ To use this application to render a professional README file, follow these steps
 
 View the tutorial video on Google Drive here: https://drive.google.com/file/d/1k0F8dPEbd34M0zEXV6QJjptnlenw3oBh/view  
 
-View the tutorial video and screenshots below:
+View the tutorial video and screenshots below:  
 
-    [![Video Tutorial](assets/tutorial-video.mov)]
-    [![Screenshot - Command Line: Inquirer Questions and Answers Object](assets/screengrab-questions.answers-object.png)]
-    [![Screenshot - Generated README (1)](assets/screengrab-generatedREADME1.png)]
-    [![Screenshot - Generated README (2)](assets/screengrab-generatedREADME2.png)]
+![Video Tutorial](./assets/tutorial-video.mov)
+![Screenshot - Command Line: Inquirer Questions and Answers Object](assets/screengrab-questions.answers-object.png)
+![Screenshot - Generated README (1)](assets/screengrab-generatedREADME1.png)
+![Screenshot - Generated README (2)](assets/screengrab-generatedREADME2.png)
 
 
 ## Features

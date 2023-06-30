@@ -43,7 +43,7 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "Please enter usage information for your project",
+        message: "Select a license for your project, or N/A if there is none",
         choices: [
             "Apache License 2.0",
             "GNU General Public License v3.0",
@@ -51,7 +51,8 @@ const questions = [
             "Boost",
             "Mozilla Public License 2.0",
             "Eclipse Public License 2.0",
-            "BSD 3-Clause"
+            "BSD 3-Clause",
+            "N/A"
         ]
     },
     {
@@ -84,8 +85,8 @@ const questions = [
 
 // this function is used to write README file
 function writeToFile(answers) {
-    let readMeText = generateMarkdown(answers);
-    fs.writeFile("new-README.md", readMeText, (err)=>{
+    let readMeMarkdown = generateMarkdown(answers);
+    fs.writeFile("new-README.md", readMeMarkdown, (err)=>{
         err ? console.error(err) : console.log("success!");
     })
 

@@ -45,7 +45,7 @@ function renderLicenseLink(license) {
 // this function returns the license section of README, using the link generated in 'renderLicenseLink' function to take user to that license's webpage
 // If there is no license, returns an empty string
 function renderLicenseSection(license) {
-  if (license) {
+  if (license !== 'N/A') {
     return `Read more about ${license} ${renderLicenseLink(license)}`;
   } else {
     return "";

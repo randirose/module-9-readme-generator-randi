@@ -61,7 +61,8 @@ View the tutorial video on Google Drive (for better video quality) here: https:/
 View the tutorial video and screenshots below:  
 
 
-https://github.com/randirose/module-9-readme-generator-randi/assets/128757891/305d0d08-b475-447a-a97f-178b61fba68a  
+https://github.com/randirose/module-9-readme-generator-randi/assets/128757891/305d0d08-b475-447a-a97f-178b61fba68a
+
 ![Screenshot - Command Line: Inquirer Questions and Answers Object](assets/screengrab-questions.answers-object.png)
 ![Screenshot - Generated README (1)](assets/screengrab-generatedREADME1.png)
 ![Screenshot - Generated README (2)](assets/screengrab-generatedREADME2.png)

@@ -61,6 +61,10 @@ View the tutorial video on Google Drive (for better video quality) here: https:/
 View the tutorial video and screenshots below:  
 
 
+
+https://github.com/randirose/module-9-readme-generator-randi/assets/128757891/1dbed5fb-76ba-4772-9659-b746f2e0fb41
+
+
 https://github.com/randirose/module-9-readme-generator-randi/assets/128757891/305d0d08-b475-447a-a97f-178b61fba68a
 
 ![Screenshot - Command Line: Inquirer Questions and Answers Object](assets/screengrab-questions.answers-object.png)

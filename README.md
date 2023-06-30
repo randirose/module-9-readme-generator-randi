@@ -55,11 +55,12 @@ To use this application to render a professional README file, follow these steps
 - View your newly generated README file, titled new-README.md  
 - Edit or add any sections you may need, and rename the file if desired.
 
-//include tutorial video and screenshots here
+View the tutorial video on Google Drive here: https://drive.google.com/file/d/1k0F8dPEbd34M0zEXV6QJjptnlenw3oBh/view  
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+View the tutorial video and screenshots below:
+
+    [![alt text](assets/images/screenshot.png)]
+
 
 ## Features
 

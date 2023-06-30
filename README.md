@@ -59,7 +59,10 @@ View the tutorial video on Google Drive here: https://drive.google.com/file/d/1k
 
 View the tutorial video and screenshots below:
 
-    [![alt text](assets/images/screenshot.png)]
+    [![Video Tutorial](assets/tutorial-video.mov)]
+    [![Screenshot - Command Line: Inquirer Questions and Answers Object](assets/screengrab-questions.answers-object.png)]
+    [![Screenshot - Generated README (1)](assets/screengrab-generatedREADME1.png)]
+    [![Screenshot - Generated README (2)](assets/screengrab-generatedREADME2.png)]
 
 
 ## Features

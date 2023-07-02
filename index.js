@@ -87,7 +87,7 @@ const questions = [
 function writeToFile(answers) {
     let readMeMarkdown = generateMarkdown(answers);
     fs.writeFile("new-README.md", readMeMarkdown, (err)=>{
-        err ? console.error(err) : console.log("success!");
+        err ? console.error(err) : console.log("You've successfully created a new README.md!");
     })
 
 }

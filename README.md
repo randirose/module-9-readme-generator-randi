@@ -58,8 +58,8 @@ To use this application to render a professional README file, follow these steps
 
 View the tutorial video on Google Drive here: https://drive.google.com/file/d/1k0F8dPEbd34M0zEXV6QJjptnlenw3oBh/view  
 
+View a sample generated README (built from this command line app) within my repo here: assets/sample-generated-README.md  
 View the tutorial video and screenshots below:  
-
 
 
 https://github.com/randirose/module-9-readme-generator-randi/assets/128757891/1dbed5fb-76ba-4772-9659-b746f2e0fb41
